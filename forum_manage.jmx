@@ -11,49 +11,47 @@
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
     </TestPlan>
     <hashTree>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="生产用户定义的变量" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="host" elementType="Argument">
             <stringProp name="Argument.name">host</stringProp>
-            <stringProp name="Argument.value">gateway.sandbox.terran.wxpai.cn</stringProp>
+            <stringProp name="Argument.value">gateway.terran.wxpai.cn</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.desc">服务器地址</stringProp>
           </elementProp>
-          <elementProp name="port" elementType="Argument">
-            <stringProp name="Argument.name">port</stringProp>
+          <elementProp name="post" elementType="Argument">
+            <stringProp name="Argument.name">post</stringProp>
             <stringProp name="Argument.value">80</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.desc">端口号</stringProp>
-          </elementProp>
-          <elementProp name="ent_id" elementType="Argument">
-            <stringProp name="Argument.name">ent_id</stringProp>
-            <stringProp name="Argument.value">31614</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-            <stringProp name="Argument.desc">企业ID（切换矩阵时，可更换）</stringProp>
           </elementProp>
           <elementProp name="username" elementType="Argument">
             <stringProp name="Argument.name">username</stringProp>
-            <stringProp name="Argument.value">test0221</stringProp>
+            <stringProp name="Argument.value">aiwanpai@test1207</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">Terran账号名称</stringProp>
           </elementProp>
           <elementProp name="password" elementType="Argument">
             <stringProp name="Argument.name">password</stringProp>
             <stringProp name="Argument.value">123456</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
             <stringProp name="Argument.desc">Terran账号密码</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="type" elementType="Argument">
-            <stringProp name="Argument.name">type</stringProp>
-            <stringProp name="Argument.value">0</stringProp>
-            <stringProp name="Argument.desc">帖子类型；       0，文章；1，话题； 2，照片墙</stringProp>
+          <elementProp name="ent_id" elementType="Argument">
+            <stringProp name="Argument.name">ent_id</stringProp>
+            <stringProp name="Argument.value">102425</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">企业ID（切换矩阵时，可更换）</stringProp>
           </elementProp>
           <elementProp name="publish_type" elementType="Argument">
             <stringProp name="Argument.name">publish_type</stringProp>
             <stringProp name="Argument.value">0</stringProp>
-            <stringProp name="Argument.desc">是否立即发布；0，表示立即发布；1，表示定时发布</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">帖子类型；       0，文章；1，话题； 2，照片墙</stringProp>
+          </elementProp>
+          <elementProp name="type" elementType="Argument">
+            <stringProp name="Argument.name">type</stringProp>
+            <stringProp name="Argument.value">0</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+            <stringProp name="Argument.desc">是否立即发布；0，表示立即发布；1，表示定时发布</stringProp>
           </elementProp>
         </collectionProp>
       </Arguments>
