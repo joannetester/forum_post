@@ -166,7 +166,7 @@
           </HeaderManager>
           <hashTree/>
         </hashTree>
-        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="pointmall" enabled="false"/>
+        <RecordingController guiclass="RecordController" testclass="RecordingController" testname="pointmall" enabled="true"/>
         <hashTree>
           <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="pointmall-查询商品列表" enabled="true">
             <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" enabled="true">
